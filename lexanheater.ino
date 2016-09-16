@@ -2,6 +2,28 @@
   This started out as an example from the Adafruit library
   for the MAX31855.h chip.  It was adapted to be a pid 
   controller for a lexan heating furnace.
+  
+  Arduino
+  p1 - NC
+  p2 - NC
+  p3 - MAX31855
+  p4 - MAX31855
+  p5 - MAX31855
+  p6 - relay
+  p7 - LCD
+  p8 - LCD
+  p9 - LCD
+  p10 - LCD
+  p11 - LCD
+  p12 - LCD
+  p13 - green LED (PREHEATED_LED)
+  p14 - start / stop button
+  p15 - up button
+  p16 - down button
+  p17 - relay on led (red)
+  p18
+  p19
+  
  ****************************************************/
 #include <SPI.h>
 #include <Wire.h>
